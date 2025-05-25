@@ -1,0 +1,67 @@
+#contenedorPrincipal{
+    background-color: pink;
+    width: 100%;
+    overflow-x: hidden;
+    flex: 1;
+    overflow-y: hidden; 
+}
+h1{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(228, 13, 138);
+}
+
+#links{
+    flex:auto;
+    background-color: rgb(216, 170, 253);
+    width: 98%;
+    border-color: rgb(63, 2, 104);
+    border-style: solid;
+    border-width: 2px;
+    padding: 0px;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#infoPersonal{
+    background-color: rgb(255, 145, 222);
+    border-color: rgb(253, 13, 161);
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+    text-align: center;
+    width: 97%;
+}
+h2{
+    text-align: center;
+    color: rgb(61, 12, 107);
+}
+
+img{
+    width: 150px;
+    float: right;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    border-radius: 10%;
+    flex: auto;
+}
+
+#estudios{
+    background-color: rgb(209, 174, 241);
+}
+
+h4{
+    text-align: center;
+    color: rgb(248, 108, 218);
+}
+
+#fondoExperiencia{
+    background-color: rgb(255, 209, 249);
+}
+
+#fondoHobbies{
+    background-color: rgb(230, 192, 255);
+}
