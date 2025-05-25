@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+
+}
+
+h1{
+    text-align: center;
+    color: rgb(2, 2, 68);
+}
+h2{
+    color: yellow;
+    text-align: center;
+}
+
+
+.contenedor-principal {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex; /* Usar flexbox */
+    gap: 20px; /* Espacio entre el índice y el texto */
+}
+
+#barraLateral {
+    background-color: lightblue;
+    padding: 15px;
+    width: 20%;
+    border: 1px solid black;
+    flex: 0 0 20%;
+    min-width: 200px;
+    box-sizing: border-box;
+}
+
+#barraLateral h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+#barraLateral ol {
+    margin: 0;
+    padding: 0 0 0 20px;
+    list-style-type: decimal;
+    display: block; /* Asegura columna */
+}
+
+#barraLateral li {
+    margin: 5px 0;
+    display: block; /* Asegura columna */
+    width: 100%;
+}
+
+.texto {
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.texto p {
+    margin: 10px 0;
+}
