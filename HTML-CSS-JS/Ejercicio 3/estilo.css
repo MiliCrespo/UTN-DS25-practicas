@@ -1,0 +1,39 @@
+table{
+    width: 300px; /* Ancho total de la tabla */
+    height: 100px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+
+td{
+    background-color: rgb(194, 255, 209);
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+#segundaFila{
+    background-color: rgb(243, 130, 200);
+}
+
+#interseccion1{
+    background-color: rgb(255, 247, 136);
+}
+
+.celeste{
+    background-color: rgb(174, 222, 252);
+}
+
+.tercerColumna{
+    background-color: rgb(222, 187, 255);
+}
+
+.naranja{
+    background-color: rgb(250, 192, 86);
+}
+
+#interseccion2{
+    background-color: grey;
+}
