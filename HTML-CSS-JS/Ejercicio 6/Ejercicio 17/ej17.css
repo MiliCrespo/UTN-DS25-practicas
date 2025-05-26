@@ -46,6 +46,6 @@ button {
 }
 
 .borrar {
-    width: 80px; /* Más ancho que los botones normales, pero menos que Espacio */
+    width: 80px;
     height: 50px; 
 }
