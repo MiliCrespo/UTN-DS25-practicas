@@ -1,0 +1,1 @@
+No entendi como subir los archivos generando un unico archivo con las funciones de cada js. No se de que manera se mostrarían. Generé un archivo prueba con el link para insertar el nombre del archivo que requiera compilarse y mostrarse en el navegador.
